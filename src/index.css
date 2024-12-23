@@ -1,0 +1,83 @@
+/* Container Styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Todo App Styling */
+.todo-app {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Heading Styling */
+.todo-app h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  padding: 8px 12px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+  margin-left: 5px;
+  padding: 10px 15px;
+  background-color: #5a5af5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px; /* Space between buttons */
+}
+
+button:hover {
+  background-color: #4949d3;
+}
+
+/* Fetch Button Styling */
+.fetch-tasks-btn {
+  background-color: #4caf50; /* Different color for fetch button */
+}
+
+.fetch-tasks-btn:hover {
+  background-color: #45a049;
+}
+
+/* Task List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  background: #f9f9f9;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+/* Hover Effect for List Items */
+ul li:hover {
+  background-color: #f1f1f1;
+  border-color: #ccc;
+}
